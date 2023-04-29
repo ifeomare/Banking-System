@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Indie Flower', cursive;
+    color: grey;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+#register {
+    min-height: 50vh;
+    width: 50vh;
+    /* margin: 25vh 60vh; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 5px 5px grey;
+    border-radius: 25px;
+}
+
+input{
+    display: flex;
+    border: hidden;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid dimgrey;
+    width: 100px;
+    
+}
+
+div{
+    margin: 20px;  
+}
+
+button {
+    font-size: 1.6em;
+    font-weight: 700;
+    background-color: white;
+    padding: 5px;
+    
+}
+
+form:valid button[type=submit]:hover{
+    cursor: pointer;
+    color: grey;
+}

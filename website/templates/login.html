@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css') }}">
+    <title>Login</title>
+
+</head>
+
+<body>
+    <container id="login">
+        <form method="POST" id="form">
+            <section>
+                <div id="info">
+                    <label for="username">Username: </label>
+                    <input type="username" name="username" required>
+                </div>
+                <div id="info">
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" required>
+                </div>
+                <div id="but">
+                    <button type="Submit">Login</button>
+                </div>
+                <a href="/signup">Don't Have An Account?</a>
+            </section>
+        </form>
+    </container>
+
+</body>
+
+</html>
