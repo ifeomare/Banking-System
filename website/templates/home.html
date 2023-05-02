@@ -8,6 +8,29 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>This is the new Home Page</h1>
+    <div id="name">
+        <h1>Welcome {{lname}}! You currently have ${{balance}} in your account!</h1>
+    </div>
+    <container id="dir">
+        <form method="POST" id="form">
+            <section class="methods">
+                <div id="deposit">
+                    <label for="deposit">Deposit Amount: </label>
+                    <input type="number" name="deposit"step="0.01" min="1">
+                </div>
+                <div id="withdraw">
+                    <label for="withdraw">Withdrawal Amount: </label>
+                    <input type="number" name="withdraw"step="0.01" min="1">
+                </div>
+            </section>
+            <div>
+                <button type="submit" id="button">Submit</button>
+            </div>
+        </form>
+    </container>
+    <div id="change">
+        <button><a href="/account-info">Modify Account</a></button>
+        <button><a href="/">Delete Account</a></button>   
+    </div>
 </body>
 </html>

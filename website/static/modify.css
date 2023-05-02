@@ -1,0 +1,41 @@
+body{
+    margin: 20%;
+    text-align: center;
+}
+
+#dir{
+    height: 45vh;
+    display: flex;
+    color: grey;
+    border: 2px solid black;
+    align-items: center;
+    /* display: flex; */
+    justify-content: center;  
+    border-radius: 25px;
+    box-shadow: 5px 5px grey;
+}
+
+div{
+    /* display: flex; */
+    margin: 9%;
+}
+
+input{
+    border: hidden;
+    border-bottom: 1px solid black;
+}
+
+button {
+    font-size: 1.6em;
+    font-weight: 700;
+    /* background-color: lime; */
+    padding: 5px;
+    border: 2px solid black;
+    color: green
+    
+}
+
+form:valid button[type=submit]:hover{
+    cursor: pointer;
+    color: black;
+}

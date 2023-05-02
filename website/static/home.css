@@ -1,0 +1,73 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    color: grey;
+    min-height: 70vh;
+    text-align: center;
+    
+    justify-content: center;
+}
+
+#name{/*welcome*/
+    background-color: black;
+    color: white;
+}
+
+#dir{
+    min-height: 50vh;
+    width: 50vh;
+    margin: 20vh 60vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 5px 5px grey;
+    border-radius: 25px;
+}
+
+input{
+    display: flex;
+    border: hidden;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid dimgrey;
+    margin-left: 30%;
+    width: 50px;
+    
+}
+
+div{
+    margin: 20px;  
+}
+
+button {
+    font-size: 1.6em;
+    font-weight: 700;
+    background-color: lime;
+    padding: 5px;
+    color: white
+    
+}
+
+form:valid button[type=submit]:hover{
+    cursor: pointer;
+    color: black;
+}
+
+#change{
+    margin-left: 7%;
+}
+
+#change button{
+    background-color: white;
+    color: black
+}
+
+#change a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#change button:hover{
+    color: red
+}
